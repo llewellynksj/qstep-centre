@@ -1,0 +1,106 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500&display=swap');
+
+/* remove default styles */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* base styles */
+body {
+    font-family: Outfit, sans-serif;
+    max-width: 992px;
+    margin: auto;
+}
+
+#main-logo-container {
+    flex-direction: column;
+    background-color: #003c3c;
+    height: 130px;
+    padding: 10px 0 0 10px;
+}
+
+.anchor-container {
+    padding-top: 15px;
+    max-height: 65%;
+}
+
+#main-logo {
+    height: 90%;
+}
+
+#centre-logo-1 {
+    color: white;
+    padding-top: 15px;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+#centre-logo-2 {
+    display: none;
+}
+
+.menu-icon,
+.navbar-toggler {
+    align-self: center;
+    font-size: 25px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.partner-logos p {
+    font-size: 10px;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.ncrm-small-logo img {
+    max-height: 50px;
+    float: right;
+    padding-right: 10px;
+}
+
+#hero-clip {
+    width: 100%;
+}
+
+.core-container {
+    padding: 10px 20px;
+}
+
+section {
+    padding-bottom: 40px;
+}
+
+@media only screen and (min-width: 575.98px) {
+    #centre-logo-1 {
+        display: none;
+    }
+
+    #centre-logo-2 {
+        display: block;
+        color: white;
+        float: right;
+        padding-top: 15px;
+        padding-right: 20px;
+        text-align: end;
+        font-size: 22px;
+    }
+
+    #main-logo-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .ncrm-large-logo {
+        display: block;
+    }
+
+}
